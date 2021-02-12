@@ -2,9 +2,9 @@
   "name": "users-api",
   "version": "1.0.0",
   "description": "API de usuários com JavaScript",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:server": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Igoroliveira98/users-api#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "knex": "^0.21.17",
     "pg": "^8.5.1"
