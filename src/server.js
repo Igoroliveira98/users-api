@@ -1,3 +1,7 @@
-const app = require("./config/app");
+// Import server config
+// Config listen port
 
-app.listen(process.env.PORT || 3333);
+const app = require("./config/app");
+const Environment = require("./config/Environments/Environments");
+
+app.listen(Environment.port);
