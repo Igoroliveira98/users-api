@@ -39,7 +39,7 @@ Essa é uma API construída para a criação, registro, atualização e remoçã
 
 ## ⚙️Configurações do projeto:
 
-É necessário criar na pasta raiz um arquivo .env para passar as credenciais de acesso ao Banco de Dados passandoas seguites informações:
+É necessário criar na pasta raiz um arquivo .env para passar as credenciais de acesso ao Banco de Dados com seguites informações:
 
 ```
 DB_HOST= caso esteja usando docker, passar o host para acesso ao container
